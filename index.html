@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoonex Market - O'zbekistonning eng katta hayvonlar bozori</title>
+    <meta name="description" content="Zoonex Market - O'zbekistondagi eng katta hayvonlar bozori. Hayvonlar sotish, yem-yemish, asbob-uskunalar, veterinar xizmati, logistika va o'qish kurslari.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/extra-pages.css?v=2">
+    <link rel="stylesheet" href="css/modern-upgrade.css?v=2">
+    <link rel="stylesheet" href="css/dark-mode.css?v=2" id="darkModeStylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <span>ZOONEX</span>
+                </a>
+                
+                <nav class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i> Bosh sahifa
+                    </a>
+                    <a href="pages/market.html" class="nav-link">
+                        <i class="fas fa-store"></i> Market
+                    </a>
+                    <a href="pages/academy.html" class="nav-link">
+                        <i class="fas fa-graduation-cap"></i> Akademiya
+                    </a>
+                    <a href="pages/dispatcher.html" class="nav-link">
+                        <i class="fas fa-truck"></i> Logistika
+                    </a>
+                    <a href="pages/veterinary.html" class="nav-link">
+                        <i class="fas fa-user-md"></i> Veterinar
+                    </a>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle" title="Rejimni o'zgartirish">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <div class="search-box">
+                        <input type="text" placeholder="Qidirish...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <button class="btn btn-primary" id="loginBtn">
+                        <i class="fas fa-user"></i> Kirish
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-star"></i>
+                        O'zbekiston #1 hayvonlar bozori
+                    </div>
+                    <h1>Hayvonlar bozori va <span>Qishloq xo'jaligi</span> platformasi</h1>
+                    <p>O'zbekistondagi eng katta hayvonlar savdo platformasi. Hayvonlar soting, yem-yemish sotib oling, veterinarlar bilan bog'laning va yangi bilimlar oling.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-lg" id="postAdBtn">
+                            <i class="fas fa-plus-circle"></i> E'lon berish
+                        </button>
+                        <a href="pages/market.html" class="btn btn-secondary btn-lg">
+                            <i class="fas fa-store"></i> Marketni ko'rish
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15K+</span>
+                            <span class="stat-label">Faol e'lonlar</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Foydalanuvchilar</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Veterinarlar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="hero-card-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGC1CqJyd9w2oDurOBRNbAbuiTW78eP-E7GQ&s" alt="Sigir" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                        </div>
+                        <div class="hero-card-info">
+                            <h3>Sigir sotiladi</h3>
+                            <p>Golshtin zoti • 3 yosh</p>
+                            <span class="hero-card-price">25,000,000 so'm</span>
+                        </div>
+                    </div>
+                    <div class="hero-floating-card top">
+                        <div class="floating-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="floating-content">
+                            <h4>Tekshirilgan</h4>
+                            <p>5,420+ e'lon</p>
+                        </div>
+                    </div>
+                    <div class="hero-floating-card bottom">
+                        <div class="floating-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="floating-content">
+                            <h4>Yangi a'zo</h4>
+                            <p>+128 bugun</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <i class="fas fa-th-large"></i>
+                    Xizmatlar
+                </span>
+                <h2>Biz nima taklif qilamiz?</h2>
+                <p>Zoonex Market barcha qishloq xo'jaligi ehtiyojlaringiz uchun bir joyda</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" onclick="location.href='pages/market.html'">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Market</h3>
+                    <p>Hayvonlar sotish va sotib olish, yem-yemish, asbob-uskunalar</p>
+                    <span class="service-link">
+                        Ko'proq <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+                <div class="service-card" onclick="location.href='pages/academy.html'">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Akademiya</h3>
+                    <p>Video darslar, kurslar, sertifikatlar bilan ta'lim oling</p>
+                    <span class="service-link">
+                        Ko'proq <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+                <div class="service-card" onclick="location.href='pages/dispatcher.html'">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Logistika</h3>
+                    <p>Yuk mashinalarini topish va logistika xizmatlari</p>
+                    <span class="service-link">
+                        Ko'proq <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+                <div class="service-card" onclick="location.href='pages/veterinary.html'">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Veterinar</h3>
+                    <p>Butun O'zbekiston bo'ylab malakali veterinarlar bilan bog'laning</p>
+                    <span class="service-link">
+                        Ko'proq <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <i class="fas fa-fire"></i>
+                    Mashhur e'lonlar
+                </span>
+                <h2>So'nggi e'lonlar</h2>
+                <p>Eng yangi qo'shilgan hayvonlar va mahsulotlar</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?w=400" alt="Sigir">
+                        <span class="product-badge video">
+                            <i class="fas fa-video"></i> Video
+                        </span>
+                        <button class="product-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Molxona</span>
+                        <h3 class="product-title">Golshtin zoti sigiri</h3>
+                        <div class="product-location">
+                            <i class="fas fa-map-marker-alt"></i> Toshkent vil.
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">25,000,000 <span>so'm</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1534177618289-85f3cd2b9d5c?w=400" alt="Qo'y">
+                        <span class="product-badge new">Yangi</span>
+                        <button class="product-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Qo'yxona</span>
+                        <h3 class="product-title">Hissar qo'ylari (jazza)</h3>
+                        <div class="product-location">
+                            <i class="fas fa-map-marker-alt"></i> Samarqand vil.
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">3,500,000 <span>so'm</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1555169062-013468b47731?w=400" alt="Ot">
+                        <span class="product-badge video">
+                            <i class="fas fa-video"></i> Video
+                        </span>
+                        <button class="product-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Otlar</span>
+                        <h3 class="product-title">Arab otli zoti</h3>
+                        <div class="product-location">
+                            <i class="fas fa-map-marker-alt"></i> Buxoro vil.
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">85,000,000 <span>so'm</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1589820296156-2454bbe6a8a0?w=400" alt="Ot">
+                        <button class="product-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Otlar</span>
+                        <h3 class="product-title">Qozoq chortoqi</h3>
+                        <div class="product-location">
+                            <i class="fas fa-map-marker-alt"></i> Qashqadaryo vil.
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">45,000,000 <span>so'm</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: var(--space-10);">
+                <a href="pages/market.html" class="btn btn-secondary btn-lg">
+                    <i class="fas fa-th-large"></i> Barcha e'lonlar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Bizga qo'shiling!</h2>
+            <p>O'z e'loningizni joylang va minglab xaridorlarga yeting. Ro'yxatdan o'tish bepul va bir necha daqiqa vaqt oladi.</p>
+            <button class="btn btn-white btn-lg" id="postAdBtn2">
+                <i class="fas fa-plus-circle"></i> Bepul e'lon berish
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <span>ZOONEX</span>
+                    </a>
+                    <p>O'zbekistondagi eng katta hayvonlar bozori va qishloq xo'jaligi platformasi. Biz bilan ishlash oson va xavfsiz!</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Xizmatlar</h4>
+                    <ul>
+                        <li><a href="pages/market.html">Market</a></li>
+                        <li><a href="pages/academy.html">Akademiya</a></li>
+                        <li><a href="pages/dispatcher.html">Logistika</a></li>
+                        <li><a href="pages/veterinary.html">Veterinar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Kompaniya</h4>
+                    <ul>
+                        <li><a href="#">Biz haqimizda</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                        <li><a href="#">Karyera</a></li>
+                        <li><a href="#">Hamkorlik</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Aloqa</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +998 99 777 70 31</li>
+                        <li><i class="fas fa-envelope"></i> info@zoonex.uz</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Toshkent, O'zbekiston</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zoonex Market. Barcha huquqlar himoyalangan.</p>
+                <div>
+                    <a href="#" style="color: var(--text-tertiary); margin-right: 20px;">Maxfiylik siyosati</a>
+                    <a href="#" style="color: var(--text-tertiary);">Foydalanish shartlari</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Auth Modal -->
+    <div class="auth-modal" id="authModal">
+        <div class="auth-modal-overlay">
+            <div class="auth-modal-content">
+                <button class="auth-close" id="authClose"><i class="fas fa-times"></i></button>
+                
+                <!-- Login Form -->
+                <div class="auth-form" id="loginForm">
+                    <div class="auth-header">
+                        <div class="auth-logo">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h2>Xush kelibsiz!</h2>
+                        <p>Akkountingizga kiring yoki ro'yxatdan o'ting</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> Telefon raqam</label>
+                            <input type="tel" placeholder="+998 90 123 45 67" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-lock"></i> Parol</label>
+                            <div class="password-input">
+                                <input type="password" placeholder="Parolingizni kiriting" required>
+                                <button type="button" class="toggle-password"><i class="fas fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox"> Esda saqlash
+                            </label>
+                            <a href="#" class="forgot-link">Parolni unutdingizmi?</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-sign-in-alt"></i> Kirish
+                        </button>
+                    </form>
+                    <div class="auth-divider">
+                        <span>yoki</span>
+                    </div>
+                    <div class="social-login">
+                        <button class="btn btn-social btn-google">
+                            <i class="fab fa-google"></i> Google
+                        </button>
+                        <button class="btn btn-social btn-telegram">
+                            <i class="fab fa-telegram"></i> Telegram
+                        </button>
+                    </div>
+                    <p class="auth-footer">
+                        Akkauntingiz yo'qmi? 
+                        <a href="#" id="showRegister">Ro'yxatdan o'tish</a>
+                    </p>
+                </div>
+
+                <!-- Register Form -->
+                <div class="auth-form" id="registerForm" style="display: none;">
+                    <div class="auth-header">
+                        <div class="auth-logo">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h2>Ro'yxatdan o'tish</h2>
+                        <p>Zoonex Market ga qo'shiling</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> Ism familiya</label>
+                            <input type="text" placeholder="Ismingizni kiriting" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> Telefon raqam</label>
+                            <input type="tel" placeholder="+998 90 123 45 67" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email (ixtiyoriy)</label>
+                            <input type="email" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-lock"></i> Parol</label>
+                            <div class="password-input">
+                                <input type="password" placeholder="Kamida 8 ta belgi" required>
+                                <button type="button" class="toggle-password"><i class="fas fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-lock"></i> Parolni tasdiqlang</label>
+                            <input type="password" placeholder="Parolni qayta kiriting" required>
+                        </div>
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox" required> 
+                                <a href="#">Foydalanish shartlari</a> ni qabul qilaman
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-user-plus"></i> Ro'yxatdan o'tish
+                        </button>
+                    </form>
+                    <p class="auth-footer">
+                        Akkauntingiz bormi? 
+                        <a href="#" id="showLogin">Kirish</a>
+                    </p>
+                </div>
+
+                <!-- Forgot Password Form -->
+                <div class="auth-form" id="forgotForm" style="display: none;">
+                    <div class="auth-header">
+                        <div class="auth-logo">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <h2>Parolni tiklash</h2>
+                        <p>Telefon raqamingizni kiriting, kod yubaramiz</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> Telefon raqam</label>
+                            <input type="tel" placeholder="+998 99 777 70 31" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Kod yuborish
+                        </button>
+                    </form>
+                    <p class="auth-footer">
+                        <a href="#" id="showLoginFromForgot"><i class="fas fa-arrow-left"></i> Kirishga qaytish</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animal Ad Modal -->
+    <div class="animal-ad-modal post-ad-modal" id="animalAdModal">
+        <div class="post-ad-overlay">
+            <div class="post-ad-content">
+                <div class="post-ad-header">
+                    <h2><i class="fas fa-paw"></i> Hayvon sotish e'loni</h2>
+                    <button class="post-ad-close" id="animalAdClose"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="post-ad-body">
+                    <form id="animalAdForm">
+                        <!-- Step 1: Animal Type -->
+                        <div class="form-section">
+                            <h3><span class="step-number">1</span> Hayvon turini tanlang</h3>
+                            <div class="subcategory-grid">
+                                <label class="subcategory-card">
+                                    <input type="radio" name="animal_type" value="cattle" required>
+                                    <i class="fas fa-cow"></i>
+                                    <span>Mol</span>
+                                </label>
+                                <label class="subcategory-card">
+                                    <input type="radio" name="animal_type" value="sheep">
+                                    <i class="fas fa-paw"></i>
+                                    <span>Qo'y</span>
+                                </label>
+                                <label class="subcategory-card">
+                                    <input type="radio" name="animal_type" value="horses">
+                                    <i class="fas fa-horse"></i>
+                                    <span>Ot</span>
+                                </label>
+                                <label class="subcategory-card">
+                                    <input type="radio" name="animal_type" value="camels">
+                                    <i class="fas fa-paw"></i>
+                                    <span>Tuya</span>
+                                </label>
+                                <label class="subcategory-card">
+                                    <input type="radio" name="animal_type" value="poultry">
+                                    <i class="fas fa-dove"></i>
+                                    <span>Parranda</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Animal Details -->
+                        <div class="form-section">
+                            <h3><span class="step-number">2</span> Hayvon ma'lumotlari</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Yosh *</label>
+                                    <select name="age" required>
+                                        <option value="">Tanlang</option>
+                                        <option value="1">1 yosh</option>
+                                        <option value="2">2 yosh</option>
+                                        <option value="3">3 yosh</option>
+                                        <option value="4">4 yosh</option>
+                                        <option value="5">5 yosh</option>
+                                        <option value="5+">5 yoshdan katta</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Vazn (kg) *</label>
+                                    <input type="number" name="weight" placeholder="Masalan: 350" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Zoti *</label>
+                                    <select name="breed" required>
+                                        <option value="">Tanlang</option>
+                                        <option value="golshtin">Golshtin</option>
+                                        <option value="angus">Angus</option>
+                                        <option value="simmental">Simmental</option>
+                                        <option value="hissar">Hissar</option>
+                                        <option value="edilbay">Edilbay</option>
+                                        <option value="arab">Arab</option>
+                                        <option value="qozoq_chortoq">Qozoq chortoqi</option>
+                                        <option value="boz">O'rikboz</option>
+                                        <option value="brahma">Brama</option>
+                                        <option value="boshqa">Boshqa</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Jinsi *</label>
+                                    <select name="gender" required>
+                                        <option value="">Tanlang</option>
+                                        <option value="male">Erkak</option>
+                                        <option value="female">Urg'ochi</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Basic Info -->
+                        <div class="form-section">
+                            <h3><span class="step-number">3</span> Asosiy ma'lumotlar</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>E'lon sarlavhasi *</label>
+                                    <input type="text" name="title" placeholder="Masalan: Golshtin zoti sigiri" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Narxi (so'm) *</label>
+                                    <input type="number" name="price" placeholder="25000000" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Batafsil tavsif *</label>
+                                <textarea name="description" rows="4" placeholder="Hayvon haqida batafsil ma'lumot..." required></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Location -->
+                        <div class="form-section">
+                            <h3><span class="step-number">4</span> Joylashuv</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Viloyat *</label>
+                                    <select name="region" required>
+                                        <option value="">Tanlang</option>
+                                        <option value="tashkent">Toshkent</option>
+                                        <option value="samarkand">Samarqand</option>
+                                        <option value="bukhara">Buxoro</option>
+                                        <option value="andijan">Andijon</option>
+                                        <option value="fergana">Farg'ona</option>
+                                        <option value="namangan">Namangan</option>
+                                        <option value="qashqadaryo">Qashqadaryo</option>
+                                        <option value="surkhandarya">Surxondaryo</option>
+                                        <option value="navoi">Navoiy</option>
+                                        <option value="khorezm">Xorazm</option>
+                                        <option value="karakalpakstan">Qoraqalpog'iston</option>
+                                        <option value="jizzakh">Jizzax</option>
+                                        <option value="sirdarya">Sirdaryo</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Tuman/Shahar *</label>
+                                    <input type="text" name="district" placeholder="Masalan: Zangiota" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 5: Contact -->
+                        <div class="form-section">
+                            <h3><span class="step-number">5</span> Aloqa ma'lumotlari</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Telefon raqam *</label>
+                                    <input type="tel" name="phone" placeholder="+998 99 777 70 31" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Telegram (ixtiyoriy)</label>
+                                    <input type="text" name="telegram" placeholder="@username">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 6: Photos -->
+                        <div class="form-section">
+                            <h3><span class="step-number">6</span> Rasmlar</h3>
+                            <div class="upload-area" id="animalImageUploadArea" onclick="document.getElementById('animalImageInput').click();">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <p>Rasmlarni shu yerga torting yoki bosing</p>
+                                <span>Maximum 10 ta rasm (JPG, PNG)</span>
+                                <input type="file" name="images" multiple accept="image/*" hidden id="animalImageInput" onchange="const files=Array.from(this.files); let html=''; files.slice(0,10).forEach((file,idx)=>{ if(file.type.startsWith('image/')){ const reader=new FileReader(); reader.onload=function(e){ html+='<div class=\'uploaded-image\'><img src=\''+e.target.result+'\'><button type=\'button\' class=\'remove-image\' onclick=\'this.parentElement.remove()\'><i class=\'fas fa-times\'></i></button></div>'; if(idx===Math.min(files.length,10)-1) document.getElementById('animalUploadedImages').innerHTML=html; }; reader.readAsDataURL(file); } }); ">
+                            </div>
+                            <div class="uploaded-images" id="animalUploadedImages"></div>
+                        </div>
+
+                        <!-- Step 7: Video -->
+                        <div class="form-section">
+                            <h3><span class="step-number">7</span> Video (ixtiyoriy)</h3>
+                            <div class="upload-area video-upload" id="animalVideoUploadArea" onclick="document.getElementById('animalVideoInput').click();">
+                                <i class="fas fa-video"></i>
+                                <p>Video yuklash uchun bosing</p>
+                                <span>Maximum 100 MB (MP4)</span>
+                                <input type="file" name="video" accept="video/*" hidden id="animalVideoInput" onchange="const file=this.files[0]; if(file){ const url=URL.createObjectURL(file); document.getElementById('animalUploadedVideo').innerHTML='<video controls style=\'width:100%;border-radius:8px;max-height:200px\'><source src=\''+url+'\'></video><button type=\'button\' class=\'btn btn-outline\' style=\'margin-top:10px\' onclick=\'document.getElementById(\"animalUploadedVideo\").innerHTML=\"\"; document.getElementById(\"animalVideoInput\").value=\"\";\'><i class=\'fas fa-trash\'></i> Videoni o\'chirish</button>'; }">
+                            </div>
+                            <div class="uploaded-video" id="animalUploadedVideo"></div>
+                        </div>
+
+                        <!-- Submit -->
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-outline" id="cancelAnimalAd">Bekor qilish</button>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i> E'lonni yuborish
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
